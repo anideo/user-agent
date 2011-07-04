@@ -128,6 +128,9 @@ class Agent
     when /wii/i                  ; :Wii
     when /playstation 3/i        ; :Playstation
     when /playstation portable/i ; :Playstation
+    when /iPad/i                 ; :iOS
+    when /iPhone/i               ; :iOS
+    when /iPod/i                 ; :iOS
     else                         ; :Unknown
     end
   end
@@ -139,6 +142,7 @@ class Agent
     case string
     when /konqueror/i            ; :Konqueror
     when /chrome/i               ; :Chrome
+    when /mobile.+safari/i       ; :Mobile_Safari
     when /safari/i               ; :Safari
     when /msie/i                 ; :IE
     when /opera/i                ; :Opera
