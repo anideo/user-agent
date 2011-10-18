@@ -50,4 +50,5 @@ describe Agent do
   test :Firefox, '3.0', :Linux,         :gecko, '2008062315', 'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.9) Gecko/2008062315 (Gentoo) Firefox/3.0'
   test :Firefox, '2.0', :Linux,         :gecko, '20061202',   'Mozilla/5.0 (X11; U; Linux x86_64; en-US; rv:1.8.1) Gecko/20061202 Firefox/2.0'
 
+  test :Mobile_Safari, nil, :android,   :webkit, '533.1',     'Mozilla/5.0 (Linux; U; Android 2.2; en-us; Nexus One Build/FRF91) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1'
 end

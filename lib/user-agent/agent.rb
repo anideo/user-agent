@@ -124,6 +124,7 @@ class Agent
     when /windows nt 5\.1/i      ; :'Windows XP'
     when /windows nt 5\.0/i      ; :'Windows 2000'
     when /os x (\d+)[._](\d+)/i  ; :"OS X #{$1}.#{$2}"
+    when /android/i              ; :'android'
     when /linux/i                ; :Linux
     when /wii/i                  ; :Wii
     when /playstation 3/i        ; :Playstation
